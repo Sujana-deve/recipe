@@ -27,7 +27,10 @@ urlpatterns = [
     path('delete_recipe/<id>/', delete_recipe ,name = "delete_recipe"),
      path('update_recipe/<id>/', update_recipe ,name = "update_recipe"),
     path('success_page/',success_page,name = "success_page"),
+    path('login/',login_page,name = "login_page"),
+    path('register/',register,name = "register"),
     path('recipes/',recipes,name = "recipes"),
+    path('logout/',logout_page,name = "logout_page"),
     path('admin/', admin.site.urls),
 ]
 
